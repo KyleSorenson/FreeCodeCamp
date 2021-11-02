@@ -1,0 +1,3 @@
+function spinalCase(str) {
+  return str.match(/([A-Z]|[a-z])[a-z]+/g).map(i => i.toLowerCase()).join('-');
+}
