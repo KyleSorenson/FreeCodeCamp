@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Lesson and Project Solutions from freecodecamp.org
+My lesson and project solutions from freecodecamp.org
