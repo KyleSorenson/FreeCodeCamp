@@ -9,7 +9,7 @@ function checkCashRegister(price, cash, cid) {
   let Denomination = function (value, cidIndex) {
     this.value = value;
     this.cidIndex = cidIndex;
-    this.count = (() => Math.round(cid[cidIndex][1] / value))(); // IIFE that calculates and initializes number of bills or coins based on their value
+    this.count = Math.round(cid[cidIndex][1] / value)
   };
 
   // REGISTER includes a count of each denomination (total number of coins or bills), not just the total cash value
@@ -105,19 +105,3 @@ function checkCashRegister(price, cash, cid) {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
