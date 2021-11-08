@@ -1,3 +1,5 @@
+// first attempt at this problem that was abandoned
+
 function diffArray(arr1, arr2) {
   var arr1Fax = [...arr1.sort()];
   var arr2Fax = [...arr2.sort()];
