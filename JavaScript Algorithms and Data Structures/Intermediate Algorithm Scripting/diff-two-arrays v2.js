@@ -1,13 +1,22 @@
+// First successful attempt to make an algorithm that solves this problem.
+// The function creates separate pointers for each array that increment
+// independently of each other. Values at each of the pointers are compared,
+// and if a difference is found, the smaller of the two is added to a
+// difference array. The pointer at the smaller value is then incremented,
+// while the pointers at the larger value remains static, and the process is
+// repeated, ensuring that all different values are captured from lowest
+// to highest.
+
 function diffArray(arr1, arr2) {
   
   // Copies both arrays and sorts them
   let arr1Sorted = [...arr1].sort();
   let arr2Sorted = [...arr2].sort();
 
-  // Array that will contain all the different values discovered
+  // Intializes array that will contain all the different values discovered
   let diffArr = [];
   
-  // Array that will conatin the leftover values from whichever
+  // Initializes array that will conatin the leftover values from whichever
   // array did not complete the process of being looped through
   let remainderArr = [];
 
@@ -21,6 +30,8 @@ function diffArray(arr1, arr2) {
   while ( firstPointer < arr1Sorted.length && secondPointer < arr2Sorted.length ) {   
     
     // Checks to see if both pointers are pointing at a value
+    // (If one of the pointers is pointing to undefined, that means
+    // the end of that array has been reached)
     if ( arr1Sorted[firstPointer] && arr2Sorted[secondPointer]){
 
       // Compares values at both pointers to see if they aren't the same
