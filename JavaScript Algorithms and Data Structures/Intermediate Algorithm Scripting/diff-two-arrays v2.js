@@ -16,7 +16,7 @@ function diffArray(arr1, arr2) {
   // Intializes array that will contain all the different values discovered
   let diffArr = [];
   
-  // Initializes array that will conatin the leftover values from whichever
+  // Initializes array that will contain the leftover values from whichever
   // array did not complete the process of being looped through
   let remainderArr = [];
 
