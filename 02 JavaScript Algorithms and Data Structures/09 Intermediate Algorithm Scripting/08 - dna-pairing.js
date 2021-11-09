@@ -1,4 +1,5 @@
 // My unassisted, original solution to this problem.
+
 // Uses a simple switch and for loop to traverse
 // each character in str, determine its pair,
 // and push an array of the combined base pair
