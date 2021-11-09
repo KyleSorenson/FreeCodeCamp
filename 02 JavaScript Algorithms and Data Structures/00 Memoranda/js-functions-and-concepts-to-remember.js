@@ -1,6 +1,15 @@
 // Exporting and Importing Functions
 
-// Nested Ternary Operators
+// Ternary Operators
+
+	// Nested Ternary Operators
+
+	// Multi-Line Ternary Operators:
+	function dropElements(arr, func, i = 0) {
+	  return i < arr.length && !func(arr[i])
+	    ? (dropElements(arr.slice(i + 1), func, i))
+	    : arr;
+	}
 
 // Template Literals
 

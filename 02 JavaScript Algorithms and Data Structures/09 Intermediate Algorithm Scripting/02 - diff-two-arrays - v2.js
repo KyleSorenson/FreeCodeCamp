@@ -1,4 +1,5 @@
 // My unassisted, original solution to this problem.
+
 // The function creates separate pointers for each array that increment
 // independently of each other. Values at each of the pointers are compared,
 // and if a difference is found, the smaller of the two is added to a

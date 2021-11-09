@@ -1,4 +1,5 @@
 // My unassisted, original solution to this problem.
+
 // This is an excercize in currying / parital application.
 // The function can accept either one or two arguments.
 // If only one argument is given, the function will return

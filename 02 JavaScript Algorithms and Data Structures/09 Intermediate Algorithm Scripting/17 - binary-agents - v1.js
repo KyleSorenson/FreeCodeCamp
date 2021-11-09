@@ -1,4 +1,5 @@
 // My unassisted, original solution to this problem.
+
 // Uses a number of nested methods, which doesn't make
 // it very human-readable, but the sequence of events is
 // 1) The binaryArray is split into an array of bytes
