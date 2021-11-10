@@ -1,3 +1,13 @@
+// My unassisted, original solution to this problem.
+
+// Seems to just be an excercize in writing a constructor
+// function. Also forces you to distinguish local variables
+// from externally accessible keys.
+
+// NOTABLE CONCEPTS: constructor variables as a means of creating
+// private variables. Local variables also make use of functions closure.
+// Worth researchiing further. 
+
 const Person = function(firstAndLast) {
   // Only change code below this line
   // Complete the method below and implement the others similarly
