@@ -1,4 +1,5 @@
 // My unassisted, original solution to this problem.
+
 // Creates an object that groups each special character
 // with it's corresponding regex and html entity
 // representation, then loops through str, finds
