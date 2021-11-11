@@ -115,3 +115,7 @@
 // Constructor variables as a means of creating
 // private variables. Local variables also make use of functions closure.
 // Worth researchiing further. 
+
+// The "in" operator
+
+	// if (prop in contacts[i])
