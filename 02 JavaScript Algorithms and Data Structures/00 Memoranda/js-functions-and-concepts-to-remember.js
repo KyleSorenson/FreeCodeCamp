@@ -87,3 +87,31 @@
 // Rest Parameter and Spread Operator
 
 // Promises, "then" Fulfillment, "catch" Rejection
+
+// "indexOf === -1" rather than "Array.prototype.includes()" to check
+// if the array includes a given value.
+
+// Object.keys()
+
+// Set() constructor
+
+// .flat() method
+
+// Array(length).fill(filler) method.
+
+// Human-readable multi-line ternary operator:
+
+//      i < arr.length && !func(arr[i])
+//      ? (dropElements(arr.slice(i + 1), func, i))
+//      : arr;
+// }
+
+// Human-readable method chaining
+
+// Truthy and Falsey Values
+
+// Currying, Partial Application, Arity
+
+// Constructor variables as a means of creating
+// private variables. Local variables also make use of functions closure.
+// Worth researchiing further. 

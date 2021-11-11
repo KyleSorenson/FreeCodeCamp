@@ -1,3 +1,5 @@
+// first attempt at this problem that was abandoned
+
 function steamrollArray(arr) {
 
   (function recursiveRoll(thisArr, savedItems, thisIndex, depth, parentArr, parentIndex) {
