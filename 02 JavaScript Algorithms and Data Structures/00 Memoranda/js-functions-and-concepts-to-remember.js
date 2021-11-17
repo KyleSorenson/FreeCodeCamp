@@ -15,6 +15,16 @@
 
 // Destructuring Assignment
 
+	const [returnFirstItem] = [firstItem, secondItem, thirdItem];
+	// variable "returnFirstItem" will give us the first item from the array.
+	const [, returnSecondItem] = [firstItem, secondItem, thirdItem];
+	// variable "returnFirstItem" will give us the first item from the array.
+	const { returnThirdItem } = {
+		returnFirstItem: firstItem, 
+		returnSecondItem: secondItem, 
+		returnThirdItem: thirdItem}
+	// works with objects too. Variable "returnThirdItem" will give us the third item from the array.
+
 // Arrow Functions
 
 // Concise Declarative Functions
