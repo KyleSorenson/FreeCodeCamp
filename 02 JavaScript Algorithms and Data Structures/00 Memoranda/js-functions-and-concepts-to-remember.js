@@ -14,16 +14,22 @@
 // Template Literals
 
 // Destructuring Assignment
-
+	
+	// variable "returnFirstItem" will give us the first item from the array.
 	const [returnFirstItem] = [firstItem, secondItem, thirdItem];
+	
 	// variable "returnFirstItem" will give us the first item from the array.
 	const [, returnSecondItem] = [firstItem, secondItem, thirdItem];
-	// variable "returnFirstItem" will give us the first item from the array.
+	
+	// works with objects too. Variable "returnThirdItem" will give us the third item from the array.
 	const { returnThirdItem } = {
 		returnFirstItem: firstItem, 
 		returnSecondItem: secondItem, 
 		returnThirdItem: thirdItem}
-	// works with objects too. Variable "returnThirdItem" will give us the third item from the array.
+	
+	// destructuring is common when importing. The following allows access to "Component" as a variable
+	// instead of requiring you to type "React.Component"
+	import React, { Component } from 'react';
 
 // Arrow Functions
 
