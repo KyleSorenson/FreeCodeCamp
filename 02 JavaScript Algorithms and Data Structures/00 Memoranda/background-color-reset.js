@@ -1,0 +1,1 @@
+document.getElementById('display-body').style.backgroundColor = "#2a2a40";
